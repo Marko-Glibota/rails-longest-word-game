@@ -1,0 +1,41 @@
+body {
+  font-family: arial, sans-serif;
+}
+
+.list-inline {
+  display: inline-block;
+  list-style: none;
+  padding-left: 20px;
+}
+
+.list-inline > li {
+  background-color: #3498DD;
+  color: white;
+  width: 20px;
+  height: 20px;
+  padding: 15px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+form {
+  margin-top: 10px;
+}
+
+.btn-play {
+  background-color: #3498DD;
+  color: white;
+  border: solid 2px #3498DD;
+  border-radius: 2px;
+}
+
+.btn-play:hover {
+  background-color: #3498dd9c;
+}
+
+.input {
+  padding: 5px 15px;
+}
